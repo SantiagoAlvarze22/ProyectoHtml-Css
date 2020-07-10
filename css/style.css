@@ -43,6 +43,18 @@ a:hover{
     color:#285616
 }
 
+.red{
+    color:#9b2422;
+}
+
+.blue{
+    color:#0c73f2;
+}
+
+.orange{
+    color:#d69d2a
+}
+
 
 
 /*Formularios*/
@@ -232,7 +244,7 @@ button:active{
 }
 
 #frase{
-    clear:both;
+    /*clear:both;*/
     width: 180px;
     padding: 10px;
     font-size: 14px;
@@ -324,6 +336,7 @@ button:active{
     text-align: center;
     padding: 20px 0 10px 0;
     border-bottom:1px solid #ccc;
+    margin-top: -20px;
 }
 
 #secciones section{
@@ -344,4 +357,15 @@ button:active{
 #secciones .date{
     color:gray;
     font-size:14px;
+}
+
+#secciones .stickerOne,
+#secciones .stickerTwo{
+    position: absolute;
+    margin-top:-38px;
+    z-index: 0;
+}
+
+#secciones .stickerTwo{
+    margin-left: 860px;
 }
