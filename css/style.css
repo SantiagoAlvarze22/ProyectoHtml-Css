@@ -72,6 +72,12 @@ a:hover{
     margin-top: -2px;
 }
 
+/*Para que el contenido del footer se vaya para lo part4 inferior del contenido de la pagina*/
+.clearfix{
+    float: none;
+    clear: both;
+}
+
 /*Formularios*/
 input[type="text"],
 input[type="email"],
@@ -244,6 +250,7 @@ button:active{
     width: 1250px;
     min-width: 1100px;
     margin:0px auto;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
 }
 
 /*Contenido relacionado con el aside*/
@@ -383,4 +390,24 @@ button:active{
 
 #secciones .stickerTwo{
     margin-left: 860px;
+}
+
+.history{
+    float: right;
+    margin: 20px 20px 0px 0px;
+}
+
+/*Pie de pagina*/
+
+.footer{
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 40px;
+    background-color: #333 ;
+    padding: 10px 0px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    box-shadow: 0px 0px 2px gray;
 }
