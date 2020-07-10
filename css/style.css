@@ -10,6 +10,15 @@
     font-style: normal ;
 }
 
+@font-face{
+    font-family: "fajala";
+    src:url("fonts/nevis.eot");
+    src:url("fonts/FjallaOne-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal ;
+}
+
+
 /*Estilos Generales*/
 
 *{
@@ -213,7 +222,6 @@ button:active{
 /*Contenido relacionado con el aside*/
 
 #aside, #frase{
-    clear:both;
     width: 200px;
     float: left;
     margin: 30px;
@@ -224,6 +232,7 @@ button:active{
 }
 
 #frase{
+    clear:both;
     width: 180px;
     padding: 10px;
     font-size: 14px;
@@ -291,4 +300,48 @@ button:active{
 #aside label{
     margin: 0px auto;
     text-align: center;
+}
+
+/*Secciones*/
+
+#secciones{
+    float: right;
+    width: 75%;
+    font-family: sans-serif, Arial, Helvetica;
+    margin-right: 20px;
+}
+
+#secciones h2{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+#secciones .titulo{
+    font-family: "fajala";
+    font-size:24px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 20px 0 10px 0;
+    border-bottom:1px solid #ccc;
+}
+
+#secciones section{
+    margin-top: 40px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 4px #c9c9c9 ;
+    color: #333;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+#secciones .article{
+    margin:20px 10px;
+}
+
+#secciones .date{
+    color:gray;
+    font-size:14px;
 }
